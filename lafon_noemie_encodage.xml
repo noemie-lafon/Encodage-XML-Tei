@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edition numérique: Oeuvres complètes de Voltaire, tome XII, poésie tome
+               I.</title>
+            <author>Noémie Lafon</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Cours M1 données textuelles</authority>
+            <date when="2024-12-22">22/12/2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>Oeuvres complètes de Voltaire. Tome XII.</title>
+                  <publisher>De l'imprimerie de P. Didot, l'Aîné, chevalier de l'ordre royal de
+                     Saint-Michel, imprimeur du Roi,</publisher>
+                  <pubPlace>Rue du Pont-de-Lodi, n° 6</pubPlace>
+                  <date>1825</date>
+               </bibl>
+               <lb/>
+               <bibl n="2">
+                  <title>Oeuvres complètes de Voltaire. Poésies. Tome I.</title>
+                  <publisher> E. A. Lequien, Librairie,</publisher>
+                  <pubPlace>rue des Noyers, N° 45, Paris</pubPlace>
+                  <date>1825</date>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart rend="center"><hi rend="bold">OEUVRES<lb/>COMPLÈTES<lb/>DE VOLTAIRE.<lb/>TOME
+                  XII.</hi>
+            </titlePart>
+         </titlePage>
+         <titlePage>
+            <titlePart>
+               <bibl rend="center">
+                  <publisher>
+                     <hi rend="bold">DE L’IMPRIMERIE DE P. DIDOT, L’AINÉ,<pb/>
+                        <lb/>CHEVALIER DE L’ORDRE ROYAL DE SAINT-MICHEL, <lb/>IMPRIMEUR DU ROI,<lb/>
+                     </hi>
+                  </publisher>
+                  <pubPlace rend="center"><hi rend="bold">Rue du Pont-de-Lodi, n° 6.</hi></pubPlace>
+               </bibl>
+            </titlePart>
+         </titlePage>
+         <titlePage>
+            <titlePart rend="center">
+               <note>AL 6663:12</note>
+               <hi rend="bold">OEUVRES<lb/>COMPLÈTES<lb/>DE VOLTAIRE.<lb/>POÉSIES.<lb/>TOME I.<lb/></hi>
+               <bibl rend="bottom">
+                  <lb/><pubPlace><hi rend="bold">PARIS</hi></pubPlace>
+                  <lb/><publisher><hi rend="bold">CHEZ E. A. LEQUIEN, LIBRAIRE,</hi></publisher>
+                  <lb/><pubPlace><hi rend="bold">RUE DES NOYERS, N° 45.</hi></pubPlace>
+                  <lb/><date><hi rend="bold">M DCCC XXV.</hi></date>
+               </bibl>
+            </titlePart>
+         </titlePage>
+      </front>
+      <body>
+         <div type="avertissement" n="1">
+            <head type="title" rend="center">AVERTISSEMENT</head>
+            <head type="subtitle" rend="center">DE L’ÉDITEUR.</head>
+            <p>La Correspondance de Voltaire n’est certainement pas la partie la moins intéressante
+               de ses œuvres : c’est là qu’on le voit pendant une longue suite d’années, et jusqu’au
+               lit de la mort, encourager les hommes de lettres et les artistes, combattre le
+               fanatisme et l’hypocrisie, prêcher la tolérance, prendre la défense des opprimés.
+               Cependant cette Correspondance, dans laquelle on croit ne trouver que des lettres
+               insignifiantes, est rebutée par la plupart des lecteurs. Il n’en est pas de même des
+               poésies de notre auteur. C’est donc pour faire une chose agréable aux amateurs de la
+               poésie que j’ai extrait de la Correspondance et de quelques autres volumes toutes les
+               pièces de vers qui ne se trouvent pas essentiellement liées avec la prose qui précède
+               ou qui suit. C’est dans cette immense Correspondance que sont enfouis les vers
+               suivants, et une foule d’autres, qui sont perdus pour ceux qui négligent totalement
+               la Correspondance :</p>
+            <div type="poem" n="1.1">
+               <head type="subtitle" rend="center"><hi rend="bold">A MADEMOISELLE
+                  GAUSSIN.</hi></head>
+               <lg>
+                  <l>Ce n’est pas moi qu’on applaudit,</l>
+                  <l>C’est vous qu’on aime et qu’on admire ;</l>
+                  <pb n="6"/>
+                  <l>Et vous damnez, charmante Alzire,</l>
+                  <l>Tous ceux que Gusman convertit.</l>
+               </lg>
+            </div>
+            <div type="poem" n="1.2">
+               <head type="subtitle" rend="center"><hi rend="bold">SUR LES SONNEURS.</hi></head>
+               <lg>
+                  <l>Persécuteurs du genre humain,</l>
+                  <l>Qui sonnez sans miséricorde,</l>
+                  <l>Que n’avez-vous au cou la corde</l>
+                  <l>Que vous tenez dans votre main !</l>
+               </lg>
+            </div>
+            <div type="poem" n="1.3">
+               <head type="subtitle" rend="center"><hi rend="bold">A M. L'ABBÉ COUET.</hi></head>
+               <lg>
+                  <l>Vous m’envoyez un mandement,</l>
+                  <l>Recevez une tragédie,</l>
+                  <l>Afin que mutuellement</l>
+                  <l>Nous nous donnions la comédie.</l>
+               </lg>
+            </div>
+            <div>
+               <p rend="indent">J’ai indiqué le volume et la page d’où est tirée chaque pièce qui
+                  forme double emploi dans ces trois volumes de poésies.</p>
+            </div>
+         </div>
+         <pb/>
+         <div n="2">
+            <head type="titlepage" rend="center"><hi rend="bold">POÈMES.</hi></head>
+            <note place="bottom-left"><hi rend="bold">Poésies. T. I</hi></note>
+            <pb/>
+            <div n="2.1.1">
+               <div type="poem" subtype="Satiric">
+                  <head type="title" rend="center">LA BASTILLE.</head>
+                  <l rend="center">1717.<ref target="#note1a"><hi rend="sup">1</hi></ref></l>
+                  <lg>
+                     <l rend="indent">Or ce fut donc par un matin, sans faute,</l>
+                     <l>En beau printemps, un jour de Pentecôte,</l>
+                     <l>Qu’un bruit étrange en sursaut m’éveilla.</l>
+                     <l>Un mien valet, qui du soir était ivre :</l>
+                     <l>Maître, dit-il, le Saint-Esprit est là ;</l>
+                     <l>C’est lui, sans doute, et j’ai lu dans mon livre</l>
+                     <l>Qu’avec vacarme il entre chez les gens.</l>
+                     <l>Et moi de dire alors entre mes dents :</l>
+                     <l>Gentil puîné de l’essence suprême,</l>
+                     <l>Beau Paraclet, soyez le bienvenu ;</l>
+                     <l>N’êtes-vous pas celui qui fait qu’on aime ?</l>
+                     <l rend="indent">En achevant ce discours ingénu,</l>
+                     <l>Je vois paraître au bout de ma ruelle,</l>
+                     <l>Non un pigeon, non une colombelle,</l>
+                     <l>De l’Esprit saint oiseau tendre et fidèle,</l>
+                     <l>Mais vingt corbeaux de rapine affamés,</l>
+                     <l>Monstres crochus que l’enfer a formés.</l>
+                     <l>L’un près de moi s’approche en sycophante :</l>
+                     <l>Un maintien doux, une démarche lente,</l>
+                     <l>Un ton cafard, un compliment flatteur,</l>
+                     <l>Cachent le fiel qui lui ronge le cœur.</l>
+                     <l rend="indent">Mon fils, dit-il, la cour sait vos mérites ;</l>
+                     <l>On prise fort les bons mots que vous dites,</l>
+                     <l>Vos petits vers, et vos galants écrits ;</l>
+                     <l>Et, comme ici tout travail a son prix,</l>
+                     <l>Le roi, mon fils, plein de reconnaissance,</l>
+                     <pb n="4"/>
+                     <l>Veut de vos soins vous donner récompense,</l>
+                     <l>Et vous accorde, en dépit des rivaux,</l>
+                     <l>Un logement dans un de ses châteaux.</l>
+                     <l>Les gens de bien qui sont à votre porte</l>
+                     <l>Avec respect vous serviront d’escorte ;</l>
+                     <l>Et moi, mon fils, je viens de par le roi</l>
+                     <l>Pour m’acquitter de mon petit emploi.</l>
+                     <l rend="indent">Trigaud<ref target="#note2a"><hi rend="sup">2</hi></ref>, lui
+                        dis-je, à moi point ne s’adresse</l>
+                     <l>Ce beau début ; c’est me jouer d’un tour :</l>
+                     <l>Je ne suis point rimeur suivant la cour ;</l>
+                     <l>Je ne connais roi, prince, ni princesse ;</l>
+                     <l>Et, si tout bas je forme des souhaits,</l>
+                     <l>C’est que d’iceux ne sois connu jamais.</l>
+                     <l>Je les respecte, ils sont dieux sur la terre ;</l>
+                     <l>Mais ne les faut de trop près regarder :</l>
+                     <l>Sage mortel doit toujours se garder</l>
+                     <l>De ces gens-là qui portent le tonnerre.</l>
+                     <l>Partant, vilain, retournez vers le roi ;</l>
+                     <l>Dites-lui fort que je le remercie</l>
+                     <l>De son logis ; c’est trop d’honneur pour moi ;</l>
+                     <l>Il ne me faut tant de cérémonie :</l>
+                     <l>Je suis content de mon bouge ; et les dieux</l>
+                     <l>Dans mon taudis m’ont fait un sort tranquille ;</l>
+                     <l>Mes biens sont purs, mon sommeil est facile,</l>
+                     <l>J’ai le repos; les rois n’ont rien de mieux.</l>
+                     <l rend="indent">J’eus beau prêcher, et j’eus beau m’en défendre<ref
+                           target="#note3a"><hi rend="sup">3</hi></ref>,</l>
+                     <l>Tous ces messieurs, d’un air doux et bénin,</l>
+                     <l>Obligeamment me prirent par la main :</l>
+                     <l>Allons, mon fils, marchons. Fallut se rendre,</l>
+                     <l>Fallut partir. Je fus bientôt conduit</l>
+                     <l>En coche clos vers le royal réduit</l>
+                     <l>Que près Saint-Paul ont vu bâtir nos pères</l>
+                     <pb n="5"/>
+                     <l>Par Charles cinq. O gens de bien, mes frères,</l>
+                     <l>Que Dieu vous gard’d’un pareil logement !</l>
+                     <l>J’arrive enfin dans mon appartement.</l>
+                     <l>Certain croquant avec douce manière</l>
+                     <l>Du nouveau gîte exaltait les beautés,</l>
+                     <l>Perfections, aises, commodités.</l>
+                     <l>Jamais Phébus, dit-il, dans sa carrière,</l>
+                     <l>De ses rayons n’y porta la lumière<ref target="#note4a"><hi rend="sup"
+                              >4</hi></ref>;</l>
+                     <l>Voyez ces murs de dix pieds d’épaisseur,</l>
+                     <l>Vous y serez avec plus de fraîcheur.</l>
+                     <l>Puis me fesant admirer la clôture,</l>
+                     <l>Triple la porte, et triple la serrure,</l>
+                     <l>Grilles, verrous, barreaux de tout côté,</l>
+                     <l>C’est, me dit-il, pour votre sûreté.</l>
+                     <l rend="indent">Midi sonnant, un chaudeau l’on m’apporte ;</l>
+                     <l>La chère n’est délicate ni forte :</l>
+                     <l>De ce beau mets je n’étais point tenté ;</l>
+                     <l>Mais on me dit : C’est pour votre santé ;</l>
+                     <l>Mangez en paix, ici rien ne vous presse.</l>
+                     <l rend="indent">Me voici donc en ce lieu de détresse,</l>
+                     <l>Embastillé, logé fort à l’étroit,</l>
+                     <l>Ne dormant point, buvant chaud, mangeant froid,</l>
+                     <l>Trahi de tous, même de ma maîtresse<ref target="#note5a"><hi rend="sup"
+                              >5</hi></ref>.</l>
+                     <l>O Marc-René<ref target="#note6a"><hi rend="sup">6</hi></ref>, que Caton le
+                        censeur</l>
+                     <l>Jadis dans Rome eût pris pour successeur,</l>
+                     <l>O Marc-René, de qui la faveur grande</l>
+                     <l>Fait ici-bas tant de gens murmurer<ref target="#note7a"><hi rend="sup"
+                              >7</hi></ref>,</l>
+                     <l>Vos beaux avis m’ont fait claquemurer :</l>
+                     <l>Que quelque jour le bon Dieu vous le rende !</l>
+                  </lg>
+                  <pb/>
+               </div>
+               <div type="notes" n="2.1.2">
+                  <head type="title" rend="center"><hi rend="bold">NOTES ET VARIANTES</hi></head>
+                  <head type="subtitle"><hi rend="bold">DE LA BASTILLE.</hi></head>
+                  <note xml:id="note1a" rend="indent"><hi rend="sup">1</hi>
+                     <hi rend="italic">Les Mémoires sur la Bastille</hi> disent que Voltaire fut mis
+                     à la Bastille le 17 mai 1717 : c’était le lendemain de la Pentecôte. Les<hi
+                        rend="italic">Memoires de Dangeau</hi> parlent de cet évènement, à la date
+                     du 19 mai 1717, comme d’un fait récent, mais dont ils ne donnent pas le jour.
+                     Un registre manuscrit que j’ai vu, et qu’on m’a dit être l’original, porte au
+                     16 mai l’entrée de Voltaire à la Bastille ; ce qui est d’accord avec le texte
+                     même de sa pièce. Ces témoignages ne laissent aucun doute sur l’année. Voltaire
+                     indique lui-même dans sa pièce le jour où l’on vint l’arrêter. On a dit que ce
+                     fut parcequ’on le soupçonna d’être auteur de vers satiriques intitulés, <hi
+                        rend="italic">Les j'ai vu.</hi> B. </note>
+                  <note xml:id="note2a" rend="indent"><hi rend="sup">2</hi>Faquin, lui
+                     dis-je.</note>
+                  <note xml:id="note3a" rend="indent"><hi rend="sup">3</hi>J’eus beau parler, et
+                     j’eus beau me défendre, Tous ces messieurs, d'un air doux et badin,
+                     Obligeamment, etc.</note>
+                  <note xml:id="note4a" rend="indent"><hi rend="sup">4</hi>N’y fit briller sa trop
+                     vive lumière.</note>
+                  <note xml:id="note5a" rend="indent"><hi rend="sup">5</hi>Sans passe-temps, sans
+                     amis, sans maîtresse</note>
+                  <note xml:id="note6a" rend="indent"><hi rend="sup">6</hi>Marc-René de Voyer
+                     d’Argenson, alors lieutenant de police. M. de Voltaire ne parle point ici de M.
+                     d’Argenson du même ton que dans le <hi rend="italic">Siècle de Louis XIV</hi>,
+                     ou dans le petit poème sur <hi rend="italic">la Police</hi>. Mais M. d’Argenson
+                     fut plus haï qu’estimé tant qu’il vécut : après sa mort, on lui a rendu
+                     justice, et même plus que justice. (Édit. de Kehl.)</note>
+                  <note xml:id="note7a" rend="indent"><hi rend="sup">7</hi>Fait ici-bas gens de bien
+                     murmurer.</note>
+               </div>
+            </div>
+            <div n="2.2.1">
+               <div type="poem" subtype="satiric">
+                  <head type="title" rend="center">LA POLICE</head>
+                  <head type="subtitle" rend="center"><hi rend="bold">SOUS LOUIS XIV</hi><ref target="#note1b"><hi rend="sup">1</hi>.</ref></head>
+                  <lg>
+                     <l>Le grand art de régner est le premier des arts,</l>
+                     <l>Il ne se borne point aux fatigues de Mars ;</l>
+                     <l>Il n’est point renfermé dans le soin politique</l>
+                     <l>D’abaisser la fierté d’un voisin tyrannique,</l>
+                     <l>Ou d’ébranler l’Europe, ou d’y donner la loi :</l>
+                     <l>Le devoir d’un monarque est de régner chez soi,</l>
+                     <l>D’y former un état redoutable et tranquille,</l>
+                     <l>De rendre heureux son peuple en le rendant docile.</l>
+                     <l>C’est ainsi que Louis sut passer autrefois</l>
+                     <l>Des tentes de Bellone au temple de nos lois.</l>
+                     <l>Il montait sur un trône environné d’abîmes,</l>
+                     <l>De débris, de tombeaux, de meurtres, et de crimes,</l>
+                     <l>Au milieu des flambeaux de nos divisions,</l>
+                     <l>Aux cris de la discorde, au bruit des factions.</l>
+                     <l>Il parut ; il fut sage, et l’état fut paisible,</l>
+                     <l>La discorde à son joug soumit sa tête horrible,</l>
+                     <l>Et la confusion fit silence à sa voix.</l>
+                     <l>Tout prit un nouveau cours, tout rentra dans ses droits ;</l>
+                     <l>Le magistrat fut juste, et l’Église fut sainte ;</l>
+                     <l>Paris vit prospérer dans son heureuse enceinte</l>
+                     <l>Des citoyens soumis, au travail assidus,</l>
+                     <l>Qui respectaient les grands, et ne les craignaient plus,</l>
+                     <l>La règle, avec la paix, sous des abris tranquilles</l>
+                     <l>Aux arts encouragés assura des asiles ;</l>
+                     <pb n="8"/>
+                     <l>L’orphelin fut nourri, le vagabond fixé ;</l>
+                     <l>Le pauvre oisif et lâche au travail fut forcé ;</l>
+                     <l>Et l’heureuse industrie, amenant l’abondance,</l>
+                     <l>Appela l’étranger qui méconnut la France,</l>
+                     <l>L’étranger étonné, qui, prompt à s’irriter,</l>
+                     <l>Fut jaloux de Louis, et ne put l’imiter.</l>
+                     <l>Ainsi quand du Très-Haut la parole féconde</l>
+                     <l>Des horreurs du chaos eut fait naître le monde,</l>
+                     <l>Il en fixa la borne; il plaça dans leurs rangs</l>
+                     <l>Ces trésors de lumière et ces globes errants ;</l>
+                     <l>De l’immense Saturne il ralentit la course ;</l>
+                     <l>Fit dans un cercle étroit rouler le char de l’Ourse ;</l>
+                     <l>De la lune à la terre assura les secours ;</l>
+                     <l>Distingua les climats, et mesura les jours.</l>
+                     <l>Il dit à l’Océan, Que ton orgueil s’abaisse,</l>
+                     <l>Que l’astre de la nuit te soulève et t’affaisse ;</l>
+                     <l>Il dit aux flancs du Nord, Enfantez les Autans ;</l>
+                     <l>Aux eaux du ciel, Tombez, fertilisez les champs ;</l>
+                     <l>Et que, tantôt liquide, et tantôt endurcie,</l>
+                     <l>L’onde revole au ciel en vapeurs obscurcie.</l>
+                     <l>Il dit, et tout fut fait. Et, dès ces premiers temps,</l>
+                     <l>Toujours indestructible en ses grands changements,</l>
+                     <l>La nature entretient, à son maître fidèle,</l>
+                     <l>D’éléments opposés la concorde éternelle.</l>
+                     <l>Si l’on peut comparer aux chefs-d’œuvre divins</l>
+                     <l>Les faibles monuments des efforts des humains,</l>
+                     <l>Sous un roi bienfesant parcourons cette ville,</l>
+                     <l>Obéissante, heureuse, agissante, tranquille.</l>
+                     <l>Quelle ame incessamment conduit ce vaste corps ?</l>
+                     <l>Quelle invisible main préside à ces ressorts ?</l>
+                     <l>Quel sage a su plier à nos communs services</l>
+                     <l>Nos besoins, nos plaisirs, nos vertus, et nos vices ?</l>
+                     <pb n="9"/>
+                     <l>Pourquoi ce peuple immense avec sécurité</l>
+                     <l>Vit-il sans prévoyance et sans calamité ?</l>
+                     <l>L’astre du jour à peine a fini sa carrière,</l>
+                     <l>De cent mille fanaux l’éclatante lumière</l>
+                     <l>Dans ce grand labyrinthe avec ordre me luit,</l>
+                     <l>Et forme un jour de fête au milieu de la nuit.</l>
+                     <l>L’aurore ouvre les cieux, le besoin se réveille,</l>
+                     <l>Il appelle à grands cris le travail qui sommeille ;</l>
+                     <l>Vertumne, avec Pomone, apporte, au point du jour,</l>
+                     <l>Les fruits prématurés hâtés par leur amour.</l>
+                     <l>Ces rivages pompeux qui resserrent ces ondes</l>
+                     <l>Sont couverts en tout temps des trésors des deux mondes.</l>
+                     <l>Ici l’or qu’on filait s’étend sous le marteau ;</l>
+                     <l>La main de l'artisan lui donne un prix nouveau.</l>
+                     <l>La vanité des grands, le luxe, la mollesse,</l>
+                     <l>Nourrissent des petits l’infatigable adresse.</l>
+                     <l>Je vois tous les talents, par l’espoir animés,</l>
+                     <l>Noblement soutenus, sagement réprimés :</l>
+                     <l>L’un de l’autre jaloux, empressés à se nuire,</l>
+                     <l>L’intérêt les fit naître, il pourrait les détruire ;</l>
+                     <l>Un sage les modère, et de leurs factions</l>
+                     <l>Fait au bonheur public servir les passions.</l>
+                     <l>Mais ce n’est pas assez qu’un sage soit utile :</l>
+                     <l>Le magistrat français doit penser en édile ;</l>
+                     <l>Il doit lever les yeux vers ces nobles Romains</l>
+                     <l>Que le ciel fit en tout l’exemple des humains.</l>
+                     <l>C’était peu de tracer de leurs mains triomphantes</l>
+                     <l>Du Tibre au Pont-Euxin ces routes étonnantes,</l>
+                     <l>De transporter les flots des fleuves captivés</l>
+                     <l>Sur cent arcs triomphaux jusqu’au ciel élevés ;</l>
+                     <l>Rome, en grands monuments de tous côtés féconde,</l>
+                     <l>Donna des lois, des arts, et des fêtes au monde :</l>
+                     <pb n="10"/>
+                     <l>L’univers, enchaîné dans un heureux loisir,</l>
+                     <l>Admira les Romains jusqu’au sein du plaisir.</l>
+                     <l>Paris ne cède point à l’antique Italie ;</l>
+                     <l>Chaque jour nous rassemble au temple du génie,</l>
+                     <l>A ces palais des arts, à ces jeux enchanteurs,</l>
+                     <l>A ces combats d’esprit qui polissent les moeurs :</l>
+                     <l>Pompe digne d’Athène, où tout un peuple abonde ;</l>
+                     <l>École des plaisirs, des vertus, et du monde.</l>
+                     <l>Plus loin la presse roule, et notre œil étonné</l>
+                     <l>Y voit un plomb mobile en lettres façonné,</l>
+                     <l>Mieux que chez les Chinois, sur des feuilles légères</l>
+                     <l>Tracer un monument d’immortels caractères.</l>
+                     <l>Protégez tous ces arts, ô vous, soutiens des lois,</l>
+                     <l>Ministres, confidents, ou précepteurs des rois !</l>
+                     <l>Méritez que vos noms soient écrits dans l’histoire</l>
+                     <l>Par la main des talents organes de la gloire.</l>
+                     <l>Colbert et Richelieu, les palmes dans les mains,</l>
+                     <l>De l’immortalité vous montrent les chemins.</l>
+                     <l>Regardez auprès d’eux ce vigilant génie,</l>
+                     <l>Successeur généreux<ref target="#note2b"><hi rend="sup">2</hi></ref> du
+                        prudent La Reynie,</l>
+                     <l>A qui Paris doit tout, et qui laisse aujourd’hui,</l>
+                     <l>Pour le bien des Français, deux fils dignes de lui.</l>
+                     <l>Ma voix vous nommerait, vous dont la vigilance</l>
+                     <l>Étend des soins nouveaux sur cette ville immense,</l>
+                     <l>Si vos jours, consacrés au maintien de nos lois,</l>
+                     <l>Vous laissaient un moment pour entendre ma voix ;</l>
+                     <l>J’oserais, emporté par une heureuse ivresse,</l>
+                     <l>De mon roi bienfesant célébrer la sagesse :</l>
+                     <l>Mais l’éloge est pour lui, malgré son bruit flatteur,</l>
+                     <l>La seule vérité qui déplaise à son cœur.</l>
+                  </lg>
+                  <pb/>
+               </div>
+               <div type="notes" n="2.2.2">
+                  <head rend="center"><hi rend="bold">NOTES</hi></head>
+                  <head type="subtitle"><hi rend="bold">DE LA POLICE SOUS LOUIS XIV.</hi></head>
+                  <note xml:id="note1b"><hi rend="sup">1</hi> On croit que cette pièce a concouru
+                     pour le prix de l’académie française.</note>
+                  <note xml:id="note2b"><hi rend="sup">2</hi> Marc-René de Voyer d’Argenson, dont
+                     les deux fils ont été ministres sous Louis XV B.</note>
+                  <pb n="12"/>
+               </div>
+            </div>
+            <div n="2.3">
+               <head><hi rend="bold">LE POUR ET LE CONTRE.</hi></head>
+               <pb/>
+               <div type="avertissement" n="2.3.1">
+                  <head rend="center"><hi rend="bold">AVERTISSEMENT</hi></head>
+                  <head rend="center" type="subtitle"><hi rend="bold">DES ÉDITEURS DE L'ÉDITION DE
+                        KEHL.</hi></head>
+                  <p>Ce petit poème est un des premiers ouvrages où M. de Voltaire ait fait
+                     connaître ouvertement ses opinions sur la religion et la morale. Nous ignorons
+                     quelle est la femme à qui l’auteur l’avait adressé. Il est du temps de sa
+                     jeunesse, et antérieur à ses querelles avec J. B. Rousseau, qui parle de cet
+                     ouvrage comme d’une des raisons qui l’ont éloigné de M. de Voltaire ;
+                     délicatesse bien singulière dans l’auteur de tant d’épigrammes où la religion
+                     est tournée en ridicule. Rousseau croyait apparemment qu’il n’y avait de
+                     scandale que dans les raisonnements philosophiques ; et que, pourvu qu’un conte
+                     irréglieux fût obscène, la foi de l’auteur était à l’abri de tout reproche.</p>
+                  <p rend="ident">Au reste cet ouvrage a le mérite singulier de renfermer dans
+                     quelques pages, et en très beaux vers, les objections les plus fortes contre la
+                     religion chrétienne, les réponses que font à ces objections les dévots
+                     persuadés et les dévots politiques, et enfin le plus sage conseil qu’on puisse
+                     don¬ner à un homme raisonnable qui ne veut connaître sur ces objets que ce qui
+                     est nécessaire pour se bien conduire. La fameuse profession de foi du <hi
+                        rend="italic">Vicaire savoyard</hi> n’est presque qu’un commentaire éloquent
+                     de cette épître, et de quelques morceaux du <hi rend="italic">Poème de la Loi
+                        naturelle.</hi></p>
+               </div>
+               <div type="poem" subtype="satiric" n="2.3.2">
+                  <head type="title"><hi rend="bold">LE POUR ET LE CONTRE.</hi><ref target="#note1c"><hi rend="sup">1</hi></ref></head>
+                  <head type="subtitle" rend="center"><hi rend="bold">A MADAME DE KÜPELMONDE.</hi><ref target="#note2c"><hi rend="sup">2</hi></ref>.</head>
+                  <lb/>
+                  <l rend="center">1722.</l>
+                  <lg>
+                     <l rend="indent">Tu veux donc, belle Uranie<ref target="#note3c"><hi rend="sup">3</hi></ref>,</l>
+                     <l>Qu’érigé par ton ordre en Lucrèce nouveau,</l>
+                     <l rend="indent">Devant toi, d’une main hardie,</l>
+                     <l>Aux superstitions j’arrache le bandeau ;</l>
+                     <l>Que j’expose à tes yeux le dangereux tableau</l>
+                     <l>Des mensonges sacrés dont la terre est remplie,</l>
+                     <l rend="indent">Et que ma philosophie</l>
+                     <l>T’apprenne à mépriser les horreurs du tombeau.</l>
+                     <l rend="indent">Et les terreurs de l’autre vie.</l>
+                     <l>Ne crois point qu’enivré des erreurs de mes sens,</l>
+                     <l>De ma religion blasphémateur profane,</l>
+                     <l>Je veuille avec dépit dans mes égarements</l>
+                     <l>Détruire en libertin la loi qui les condamne.</l>
+                     <l>Viens, pénètre avec moi, d’un pas respectueux,</l>
+                     <l rend="indent">Les profondeurs du sanctuaire</l>
+                     <l>Du Dieu qu’on nous annonce, et qu’on cache à nos yeux.</l>
+                     <l>Je veux aimer ce Dieu, je cherche en lui mon père :</l>
+                     <l>On me montre un tyran que, nous devons haïr.</l>
+                     <l>Il créa des humains à lui-même semblables,</l>
+                     <l rend="indent">Afin de les mieux avilir ;</l>
+                     <l rend="indent">Il nous donna des cœurs coupables,</l>
+                     <l rend="indent">Pour avoir droit de nous punir ;</l>
+                     <l rend="indent">Il nous fit aimer le plaisir,</l>
+                     <l>Pour nous mieux tourmenter par des maux effroyables,</l>
+                     <pb n="16"/>
+                     <l>Qu’un miracle éternel empêche de finir.</l>
+                     <l>Il venait de créer un homme à son image,</l>
+                     <l rend="indent">On l’en voit soudain repentir,</l>
+                     <l>Comme si l’ouvrier n’avait pas dû sentir</l>
+                     <l rend="indent">Les défauts de son propre ouvrage.</l>
+                     <l>Aveugle en ses bienfaits, aveugle en son courroux,</l>
+                     <l>A peine il nous fit naître, il va nous perdre tous.</l>
+                     <l>Il ordonne à la mer de submerger le monde,</l>
+                     <l>Ce monde qu’en six jours il forma du néant.</l>
+                     <l>Peut-être qu’on verra sa sagesse profonde</l>
+                     <l>Faire un autre univers plus pur, plus innocent :</l>
+                     <l rend="indent">Non ; il tire de la poussière</l>
+                     <l rend="indent">Une race d'affreux brigands,</l>
+                     <l>D'esclaves sans honneur, et de cruels tyrans,</l>
+                     <l rend="indent">Plus méchante que la première.</l>
+                     <l>Que fera-t-il enfin, quels foudres dévorants</l>
+                     <l>Vont sur ces malheureux lancer ses mains sévères ?</l>
+                     <l>Va-t-il dans le chaos plonger les éléments ?</l>
+                     <l>Écoutez ; ô prodige ! ô tendresse ! ô mystères !</l>
+                     <l rend="indent">Il venait de noyer les pères,</l>
+                     <l rend="indent">Il va mourir pour les enfants.<lb/></l>
+                     <lb/>
+                     <l>Il est un peuple obscur, imbécile, volage,</l>
+                     <l>Amateur insensé des superstitions,</l>
+                     <l>Vaincu par ses voisins, rampant dans l’esclavage,</l>
+                     <l>Et l’éternel mépris des autres nations :</l>
+                     <l>Le fils de Dieu, Dieu même, oubliant sa puissance,</l>
+                     <l>Se fait concitoyen de ce peuple odieux ;</l>
+                     <l>Dans les flancs d’une Juive il vient prendre naissance;</l>
+                     <l>Il rampe sous sa mère, il souffre sous ses yeux</l>
+                     <l rend="indent">Les infirmités de l’enfance.</l>
+                     <l>Long-temps, vil ouvrier, le rabot à la main,</l>
+                     <pb n="17"/>
+                     <l>Ses beaux jours sont perdus dans ce lâche exercice ;</l>
+                     <l>Il prêche enfin, trois ans le peuple iduméen,</l>
+                     <l rend="indent">Et périt du dernier supplice.</l>
+                     <l>Son sang du moins, le sang d’un Dieu mourant pour nous</l>
+                     <l>N’était-il pas d’un prix assez noble, assez rare,</l>
+                     <l rend="indent">Pour suffire à parer les coups</l>
+                     <l rend="indent">Que l’enfer jaloux nous prépare ?</l>
+                     <l>Quoi ! Dieu voulut mourir pour le salut de tous,</l>
+                     <l rend="indent">Et son trépas est inutile !</l>
+                     <l>Quoi! l’on me vantera sa clémence facile,</l>
+                     <l>Quand remontant au ciel il reprend son courroux,</l>
+                     <l>Quand sa main nous replonge aux éternels abîmes,</l>
+                     <l>Et quand, par sa fureur effaçant ses bienfaits,</l>
+                     <l>Ayant versé son sang pour expier nos crimes,</l>
+                     <l>Il nous punit de ceux que nous n’avons point faits !</l>
+                     <l>Ce Dieu poursuit encore, aveugle en sa colère,</l>
+                     <l>Sur ses derniers enfants l’erreur d’un premier père ;</l>
+                     <l>Il en demande compte à cent peuples divers</l>
+                     <l rend="indent">Assis dans la nuit du mensonge ;</l>
+                     <l rend="indent">Il punit au fond des enfers</l>
+                     <l>L’ignorance invincible où lui-même il les plonge,</l>
+                     <l>Lui qui veut éclairer et sauver l’univers !</l>
+                     <l rend="indent">Amérique, vastes contrées,</l>
+                     <l>Peuples que Dieu fit naître aux portes du soleil,</l>
+                     <l rend="indent">Vous, nations hyperborées,</l>
+                     <l>Que l’erreur entretient dans un si long sommeil,</l>
+                     <l>Serez-vous pour jamais à sa fureur livrées</l>
+                     <l rend="indent">Pour n’avoir pas su qu’autrefois,</l>
+                     <l>Dans un autre hémisphère, au fond de la Syrie,</l>
+                     <l>Le fils d’un charpentier, enfanté par Marie,</l>
+                     <l>Renié par Céphas, expira sur la croix?</l>
+                     <l>Je ne reconnais point à cette indigne image</l>
+                     <pb n="18"/>
+                     <l rend="indent">Le dieu que je dois adorer :</l>
+                     <l rend="indent">Je croirais le déshonorer</l>
+                     <l>Par une telle insulte et par un tel hommage.</l>
+                     <lb/>
+                     <l>Entends, Dieu que j’implore, entends du haut des cieux</l>
+                     <l rend="indent">Une voix plaintive et sincère.</l>
+                     <l>Mon incrédulité ne doit pas te déplaire ;</l>
+                     <l rend="indent">Mon cœur est ouvert à tes yeux :</l>
+                     <l>L’insensé te blasphème, et moi, je te révère ;</l>
+                     <l>Je ne suis pas chrétien ; mais c’est pour t’aimer mieux.</l>
+                     <lb/>
+                     <l>Cependant quel objet se présente à ma vue !</l>
+                     <l>Le voilà, c’est le Christ, puissant et glorieux.</l>
+                     <l rend="indent">Auprès de lui dans une nue</l>
+                     <l>L’étendard de sa mort, la croix brille à mes yeux.</l>
+                     <l>Sous ses pieds triomphants la mort est abattue ;</l>
+                     <l>Des portes de l’enfer il sort victorieux :</l>
+                     <l>Son règne est annoncé par la voix des oracles ;</l>
+                     <l>Son trône est cimenté par le sang des martyrs ;</l>
+                     <l>Tous les pas de ses saints sont autant de miracles ;</l>
+                     <l>Il leur promet des biens plus grands que leurs desirs ;</l>
+                     <l>Ses exemples sont saints, sa morale est divine ;</l>
+                     <l>Il console en secret les cœurs qu’il illumine ;</l>
+                     <l>Dans les plus grands malheurs il leur offre un appui ;</l>
+                     <l>Et si sur l’imposture il fonde sa doctrine,</l>
+                     <l>C’est un bonheur encor d’être trompé par lui.</l>
+                     <lb/>
+                     <l>Entre ces deux portraits, incertaine Uranie,</l>
+                     <l>C’est à toi de chercher l’obscure vérité,</l>
+                     <l>A toi, que la nature honora d’un génie</l>
+                     <l rend="indent">Qui seul égale ta beauté.</l>
+                     <l>Songe que du Très-Haut la sagesse éternelle</l>
+                     <pb n="19"/>
+                     <l>A gravé de sa main dans le fond de ton cœur</l>
+                     <l rend="indent">La religion naturelle ;</l>
+                     <l>Crois que de ton esprit la naïve candeur</l>
+                     <l>Ne sera point l’objet de sa haine immortelle ;</l>
+                     <l>Crois que devant son trône, en tout temps, en tous lieux.</l>
+                     <l rend="indent">Le cœur du juste est précieux ;</l>
+                     <l>Crois qu’un bonze modeste, un dervis charitable,</l>
+                     <l rend="indent">Trouvent plutôt grace à ses yeux</l>
+                     <l rend="indent">Qu’un janséniste impitoyable,</l>
+                     <l rend="indent">Ou qu’un pontife ambitieux.</l>
+                     <l>Eh ! qu’importe en effet sous quel titre on l’implore ?</l>
+                     <l>Tout hommage est reçu, mais aucun ne l’honore.</l>
+                     <l>Un Dieu n’a pas besoin de nos soins assidus :</l>
+                     <l>Si l’on peut l’offenser, c’est par des injustices ;</l>
+                     <l rend="indent">Il nous juge sur nos vertus,</l>
+                     <l rend="indent">Et non pas sur nos sacrifices.</l>
+                  </lg>
+               </div>
+               <div type="note" n="2.3.3">
+                  <head rend="center"><hi rend="bold">NOTES</hi></head>
+                  <head type="subtitle" rend="center"><hi rend="bold">DU POUR ET DU CONTRE</hi></head>
+                  <note xml:id="note1c" rend="indent"><hi rend="sup">1</hi> On a attribué cet
+                     ouvrage à l’abbé de Chaulieu, parcequ’il y a en effet quelque ressemblance
+                     entre cette pièce et celle du Déiste, qui commence par ces mots : <lg>
+                        <l rend="indent">J’ai vu de près le Styx, j’ai vu les Euménides.</l>
+                        <l rend="indent">Déjà venaient frapper mes oreilles timides</l>
+                        <l rend="indent">Les affreux cris du chicn de l’empire des morts.</l>
+                     </lg></note>
+                  <note xml:id="note2c" rend="indent"><hi rend="sup">2</hi>Madame de Rupelmonde,
+                     fille du maréchal d’Alègre, à une aine pleine de candeur et un penchant extrême
+                     pour la tendresse joignait, dit Duvernet, une grande incertitude sur ce qu’elle
+                     devait croire. Pendant le voyage qu’elle fit en Hollande, en 1722, elle <pb
+                        n="20"/> déposait dans le sein de Voltaire ses doutes et ses perplexités.
+                     Dans la vue de fixer son esprit incertain, Voltaire fit ce poème, dont le but
+                     est de montrer que pour plaire à Dieu, indépendamment de toute croyance, il
+                     suffit d’avoir des vertus. Madame de Rupelmonde devint dame du palais de la
+                     reine, puis se retira du monde. Elle embrassa la vie monastique, et prit
+                     l’habit aux Carmélites de la rue de Grenelle à Paris, le 8 octobre 1751. Ce fut
+                     l’abbé Poulle qui prononça le sermon d’usage. Madame de Rupelmonde est morte en
+                     1752. B.</note>
+                  <note xml:id="note3c" rend="indent"><hi rend="sup">3</hi> Cette pièce est plus
+                     connue sous le titre <hi rend="italic">d'Épître à Uranie.</hi> B.</note>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
